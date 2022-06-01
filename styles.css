@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.label {
+  background-color: lightskyblue;
+  color: #fff;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-right: 4rem;
+  padding-left: 1rem;
+}
+
+.box {
+  width: 150px;
+  margin: 20px;
+}
