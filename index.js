@@ -29,7 +29,7 @@ async function getWeather(latitude, longitude, locationStr) {
   response = await data.json();
   console.log(response.daily.data);
   let $htmlWrapper = document.querySelector("#content");
-  let htmlTemplate = `<h1 style="margin: 0;">Forecast for ${locationStr}</h1>
+  let htmlTemplate = `<h1 style="margin: 0;">WEATHER FORECAST FOR ${locationStr.toUpperCase()}</h1>
   <div class="container">
     <div class="box">
         <span><h3 class="label">Today:</h3></span>
